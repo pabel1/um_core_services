@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { ErrorRequestHandler, NextFunction, Request, Response } from 'express'
-import mongoose from 'mongoose'
+
 import { ZodError } from 'zod'
 import ErrorHandler from '../../Errorhandler/errorHandler'
 import handleCastError from '../../Errorhandler/handleCastError'

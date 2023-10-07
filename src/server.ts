@@ -1,11 +1,10 @@
 import { Server } from 'http'
-import mongoose from 'mongoose'
 import { errorLogger, logger } from './App/shared/logger'
 import config from './config'
 import app from './index'
 async function main() {
   try {
-    await mongoose.connect(config.Database_URL as string)
+    // await mongoose.connect(config.Database_URL as string)
     console.log(`Database connected Successfully!!`)
     logger.info(`Database connected Successfully!!`)
 
